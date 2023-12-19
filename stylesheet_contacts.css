@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre:wght@600&family=Hepta+Slab:wght@300&family=Orbitron&display=swap');
+
+.wrapper{
+	width:100%;
+	height: 1450px;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.header{
+	display: flex;
+	text-align: center;
+	position: sticky;
+	top: 0;
+	background-color: #0F2642;
+	padding: 10px;
+	width:100%;
+	height: 90px;
+}
+
+.nav_links{
+	list-style: none;
+ }
+
+.nav__link1{
+color: white;
+  background-color: #000000;
+  text-align: center;
+  border-radius: 25px;
+  display: inline-block;
+  padding: 15px;
+   font-family: 'Abhaya Libre', serif;
+}
+
+
+nav{
+	margin-left: auto;
+}
+  
+a:link {
+  color: white;
+  text-decoration: none;
+
+}
+
+a:hover {
+  color: white;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: white;
+  text-decoration: underline;
+}
+  
+.contact_links{
+	list-style: none;
+	color: white;
+	font-size: 40px;
+	font-weight: semi-bold;
+	font-family: 'Hepta Slab', serif;
+}
+  
+  .nav_links li {
+	display: inline-block;
+	padding: 15px 15px;
+  }
+  
+.banner{
+	width:100%;
+	height: 300px;
+	padding-top: 50px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	background-image: linear-gradient(to bottom, rgba(15,38,66,1), rgba(102,28,152,1));
+	margin-bottom: 90px;
+}
+
+.title_main{
+	font-size: 70px;
+	font-family: 'Orbitron', sans-serif;
+}
+
+.title_box{
+	margin: 0;
+	background-color: #371543;
+	color: white;
+	height: 120px;
+	margin-bottom: 40px;
+	
+}
+
+.title_text{
+	font-size: 50px;
+	text-align: center;
+	font-family: 'Orbitron', sans-serif;
+}
+
+.main_img{
+	margin: 0;
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.info_box{
+	background-color: #4A175C;
+	text-align: center;
+	height: 700px;
+	margin: auto;
+  width: 90%;
+  padding: 10px;
+	margin-bottom: 50px;
+	justify-content: center;
+}
+
+.text{
+	color: white;
+	font-size: 50px;
+	font-weight: semi-bold;
+	font-family: 'Orbitron', sans-serif;
+}
+
+footer{
+	padding-top: 30px;
+	position: relative;
+	bottom: -90px;
+	width: 100%;  
+	height: 250px;
+	background-color: #0F2642;
+	color: white; 
+	display: flex;
+	justify-content: space-evenly;
+}
+
+.footer_logo{
+	height: 150px;
+}
+
+.footer_text{
+	text-align: center;
+	font-family: 'Hepta Slab', serif;
+}
