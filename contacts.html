@@ -36,21 +36,45 @@
 				<br>
 				</p>
 				<br>
-				<ul class="contact_links">
-					<li class="con__item">Email: <br>skyepgloriana0117@gmail.com</li>
-					<br>
-					<li class="con__item">
-					<a class="soc__link" href="https://www.facebook.com/skyerowee.gloriana">Facebook: 
-					<br>
-					Skye Rowee Gloriana</a></li>
-					<br>
-					<li class="con__item">
-					<a class="soc__link" href="https://twitter.com/GlorianaSkye">Twitter: 
-					<br>
-					GlorianaSkye</a></li>
-			  </ul>
+
+				<button type="button" class="collapsible"><h2 class = "info_box_title"> EMAIL </h2></button>
+			<div class="content">	
+				<p class = "text"> skyepgloriana0117@gmail.com </p>
 			</div>
-					
+
+			<button type="button" class="collapsible"><h2 class = "info_box_title"> FACEBOOK </h2></button>
+			<div class="content">	
+				<p class = "text"> <a class="soc__link" href="https://www.facebook.com/skyerowee.gloriana">Facebook: 
+					<br>
+					Skye Rowee Gloriana</a> </p>
+			</div>
+
+			<button type="button" class="collapsible"><h2 class = "info_box_title"> TWITTER </h2></button>
+			<div class="content">	
+				<p class = "text"> <a class="soc__link" href="https://twitter.com/GlorianaSkye">Twitter: 
+					<br>
+					GlorianaSkye</a> </p>
+			</div>
+				
+			</div>
+
+			<script>
+		var coll = document.getElementsByClassName("collapsible");
+		var i;
+
+		for (i = 0; i < coll.length; i++) {
+				coll[i].addEventListener("click", function() {
+				this.classList.toggle("active");
+		var content = this.nextElementSibling;
+		if (content.style.display === "block") {
+			content.style.display = "none";
+		} 
+		else {
+			content.style.display = "block";
+		}
+				});
+		}
+			</script>
 			
 		<footer>
 			<h2 class = "footer_text">
