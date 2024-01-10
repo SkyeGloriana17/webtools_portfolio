@@ -57,14 +57,6 @@ a:visited {
   text-decoration: underline;
 }
   
-.contact_links{
-	list-style: none;
-	color: white;
-	font-size: 40px;
-	font-weight: semi-bold;
-	font-family: 'Hepta Slab', serif;
-}
-  
   .nav_links li {
 	display: inline-block;
 	padding: 15px 15px;
